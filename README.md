@@ -16,7 +16,7 @@ Project from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io
 
 ## Overview
 
-![screenshot]((img/screenshot/full.png))
+![screenshot]((/img/screenshot/full.png))
 
 
 ### Built With
