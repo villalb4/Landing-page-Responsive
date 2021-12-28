@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+}
+
+.container {
+  margin: 36px 120px 41px 120px;
+}
+header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 0;
+  justify-content: space-between;
+}
+ nav {
+   display: flex;
+   gap: 42px;
+   margin: 0 0 0 80px;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+.menu {
+  font-size: 18px;
+  display: inline;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+.home {
+  color: #333333;
+}
+.started {
+  padding: 10px 36px;
+  border-radius: 50px;
+  border-style: none;
+  background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
+  color: white;
+  cursor: pointer;
+}
+
+
+ /* MAIN */
+main {
+  display: flex;
+  align-items: center;
+  margin: 124.85px 0 95.41px 0;
+  justify-content: space-between;
+  max-width: 1211.31px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 150%;
+  color: #333333;
+  margin: 0 0 0 0;
+  max-width: 450px
+}
+p{
+  line-height: 200%;
+  color: #828282;
+  margin: 24px 0 40px 0;
+  max-width: 450px
+}
+#play {
+  display: flex;
+  gap: 12px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: 1px solid #e0e0e0;
+  background: transparet;
+  background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+#play:hover {
+  box-shadow: 0px 0px 15px -10px #333333;
+}
+
+ /* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+}
+.social {
+  display: flex;
+  gap: 36px;
+  color: #BDBDBD;
+  }
+  section > a {
+  text-decoration: none;
+  color: #BDBDBD;
+  }
+.my {
+  font-size: 18px;
+  font-weight: 500;
+  color: #bdbdbd;
+  text-decoration: none;
+  margin: 0 0 0 77.78px;
+}
+
+@media screen and (max-width: 1099px) {
+  .container {
+    margin: 36px 60px 41px 60px;
+  }
+}
+@media screen and (max-width: 986px) {
+  main {
+    flex-direction: column;
+    gap: 50px;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 140%;
+  }
+  p{
+    line-height: 200%;
+    color: #828282;
+    margin: 24px 0 40px 0;
+    max-width: 400px
+  }
+}
